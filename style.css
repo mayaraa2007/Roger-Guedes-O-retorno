@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    font-family: "Libre Baskerville", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+
+}
+
+botton{
+background-color: rgb(255, 255, 255);
+font-family: "Libre Baskerville", system-ui;
+}
+
+.passo{
+display:none;
+}
+
+.passo.ativo{
+    display:block;
+}
+
+main{
+    text-align: center;
+    max-width: 90%;
+}
+
+img{
+    max-width: 80%;
+}
